@@ -1,0 +1,19 @@
+{
+  "name": "gap-tecnical-test",
+  "version": "1.0.0",
+  "description": "Tecnical Test QA enginner ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edd1525/GAP-Tecnical-test.git"
+  },
+  "author": "Edward Bustamante <ebustamantea@psl.com.co> (http://seon.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edd1525/GAP-Tecnical-test/issues"
+  },
+  "homepage": "https://github.com/Edd1525/GAP-Tecnical-test#readme"
+}
