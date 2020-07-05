@@ -1,19 +1,42 @@
 {
-  "name": "gap-tecnical-test",
+  "name": "gap-technical-test",
   "version": "1.0.0",
-  "description": "Tecnical Test QA enginner ",
+  "description": "Technical Test QA engineer ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "npm run test"
+    "test": "./node_modules/.bin/cucumber-js ./src/features  --skip-js-errors --require-module ts-node/register --require src/**/*.ts -f json:reports/cucumber_report.json"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Edd1525/GAP-Tecnical-test.git"
   },
-  "author": "Edward Bustamante <ebustamantea@psl.com.co> (http://seon.com)",
+  "author": "Edward Bustamante <ebustamantea@psl.com.co>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Edd1525/GAP-Tecnical-test/issues"
   },
-  "homepage": "https://github.com/Edd1525/GAP-Tecnical-test#readme"
+  "homepage": "https://github.com/Edd1525/GAP-Tecnical-test#readme",
+  "dependencies": {
+    "@types/cucumber": "~6.0.0",
+    "@types/node": "~10.14.17",
+    "base64-img": "^1.0.4",
+    "chai": "^4.2.0",
+    "chai-string": "^1.5.0",
+    "cucumber": "~6.0.5",
+    "cucumber-html-reporter": "~5.0.2",
+    "cucumber-junit": "~1.7.1",
+    "cucumber-junit-convert": "~1.1.0",
+    "npm": "^6.0.0",
+    "prettier": "~1.19.1",
+    "screenshot-desktop": "~1.10.0",
+    "testcafe": "v1.8.0",
+    "testcafe-reporter-html": "~1.4.5",
+    "ts-node": "~8.5.4",
+    "tslint": "~5.20.0",
+    "tslint-config-prettier": "~1.18.0",
+    "tslint-config-standard": "~9.0.0",
+    "typescript": "~3.5.3",
+    "@types/chai": "^4.2.11"
+  }
 }

@@ -1,0 +1,7 @@
+{
+  "pageLoadTimeout": 15000,
+  "selectorTimeout": 15000,
+  "skipJsErrors": true,
+  "allowUnawaitedPromise": true,
+  "quarantineMode": false
+}
